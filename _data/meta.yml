@@ -4,16 +4,16 @@
 
 series:
   # The name of the organisation or entity that owns this series
-  organisation: "Electric Book Works"
+  organisation: "jeremyblog"
   # A live web address for the organisation
-  url: "https://electricbookworks.com/"
+  url: "http://simpleprogram.me"
   # The default contact email address
   email: "info@electricbookworks.com"
   # The name of the series of books in this folder.
-  name: "The Electric Book workflow"
+  name: "zookeeper cookbook"
   # A one-liner about this series. Useful for Open Graph metadata.
   description: |
-    The Electric Book workflow is a set of tools and processes for creating high-quality books. We developed it at <a href="http://electricbookworks.com">Electric Book Works</a> for our own publishing. It lets you store books in plain text with great version control, and output website versions, ebooks and print editions easily from a single source. At the heart of the workflow is the <a href="https://github.com/electricbookworks/electric-book">Electric Book Jekyll template</a>. With some technical expertise, you can use it, too.
+    Jeremy写的一本关于如何轻松掌握zookeeper的书籍，书中记载了在互联网大规模场景下使用zookeeper的经验和解决方案，供君参考
   # An image in /assets that stands for the series
   image: "cover.jpg"
   # For web navigation, the label for links to  the series homepage
