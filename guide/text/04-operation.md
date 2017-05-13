@@ -1,5 +1,7 @@
 ---
 title: 运维的一些坑
+description: zookeeper使用过程中遇到问题和解决方案
+keywords: zookeeper,隔离,fullgc,session
 ---
 
 # 运维的一些坑

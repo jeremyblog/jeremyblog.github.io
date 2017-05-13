@@ -1,5 +1,7 @@
 ---
 title: zookeeper应用场景
+description: zookeeper在平常中一些应用场景
+keywords: zookeeper
 ---
 
 # zookeeper应用场景

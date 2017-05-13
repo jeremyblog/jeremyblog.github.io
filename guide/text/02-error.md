@@ -1,5 +1,7 @@
 ---
 title: 故障处理
+description: 客户端请求zookeeper异常的捕捉和处理
+keywords: zookeeper，Disconnected，ConnectionLossException
 ---
 
 # 故障处理

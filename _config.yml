@@ -24,7 +24,7 @@ edition: "default"
 
 # To make absolute links work, e.g. in canonical links in <head>,
 # include the url where this site will live when it's live (production).
-canonical-url: "http://electricbook.works"
+canonical-url: "http://jeremyblog.github.io"
 
 # If you're using GitHub Pages without a custom domain, make this
 # the name of your repo, e.g. /electric-book-workflow
@@ -37,7 +37,7 @@ baseurl: ""
 # add username/repository here and uncomment/enable
 # gem 'github-pages', group: :jekyll_plugins
 # in this project's Gemfile.
-repository: "electricbookworks/electric-book-workflow"
+repository: "jeremyblog/jeremyblog.github.io"
 
 # Web navigation source: select either files or nav
 # files: navigation will be taken from the web files list in `meta.yml`
@@ -134,6 +134,18 @@ sass:
 # Store only site configurations here, and book metadata (title, author, ISBNs) in _data/meta.yml
 defaults: 
   -
+    scope:
+      path: "sitemap.xml"
+    values:
+      layout: "empty"
+
+  -
+    scope:
+      path: "atom.xml"
+    values:
+      layout: "empty"
+
+  -
     scope: # Sets default page frontmatter for all files in this series (an empty string "" for path means all files).
       path: ""
     values:
@@ -143,3 +155,9 @@ defaults:
       stylesheet-screen-pdf: "screen-pdf.css"
       stylesheet-web: "web.css"
       stylesheet-epub: "epub.css"
+
+production_url: http://simpleprogram.me
+author:
+  name: jeremyblog
+  email: 330526235@qq.com
+  github: jeremyblog

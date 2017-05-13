@@ -1,5 +1,7 @@
 ---
 title: 状态事件
+description: zookeeper在watch监听事件的一些优化点
+keywords: zookeeper，watch
 ---
 
 # 状态事件
