@@ -10,7 +10,7 @@ series:
   # The default contact email address
   email: "info@electricbookworks.com"
   # The name of the series of books in this folder.
-  name: "zookeeper cookbook"
+  name: "jeremy books"
   # A one-liner about this series. Useful for Open Graph metadata.
   description: |
     Jeremy写的一本关于如何轻松掌握zookeeper的书籍，书中记载了在互联网大规模场景下使用zookeeper的经验和解决方案，供君参考
@@ -32,7 +32,7 @@ series:
 
 works:
   - directory: "guide"
-    title: "The Electric Book guide"
+    title: "zookeeper cookbook"
     subtitle: "How to create high-quality books with open tools"
     creator: "Arthur Attwell" # E.g. the author
     contributor: "" # E.g. other contributors
@@ -113,6 +113,7 @@ works:
           - 51-epub-output: "Epub output"
           - 60-troubleshooting: "Troubleshooting"
           - 70-translations: "Book translations"
+          #- 04-operation: "zookeeper应用场景"
         nav:
           - label: "Setup"
             children:
@@ -169,6 +170,20 @@ works:
               - 
                 file: "40-indd-to-md"
                 label: "InDesign conversion"
+          - label: "文章"
+            children:
+              - 
+                file: "01-changjing"
+                label: "zookeeper应用场景"
+              - 
+                file: "03-status"
+                label: "状态事件"
+              - 
+                file: "02-error"
+                label: "故障处理"
+              - 
+                file: "04-operation"
+                label: "zookeeper应用场景"
           - label: "Output"
             children:
               - 
