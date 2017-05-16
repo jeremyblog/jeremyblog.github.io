@@ -10,3 +10,4 @@ style: contents-page
 1.  [状态事件](03-status.html#状态事件)
 1.  [*故障处理*](02-error.html#故障处理)
 1.  [运维的一些坑](04-operation.html#运维的一些坑)
+1.  [Zookeeper的配置管理(一)](05-01-config.html#Zookeeper的配置管理(一))
