@@ -11,3 +11,4 @@ style: contents-page
 1.  [*故障处理*](02-error.html#故障处理)
 1.  [运维的一些坑](04-operation.html#运维的一些坑)
 1.  [Zookeeper的配置管理(一)](05-01-config.html#Zookeeper的配置管理(一))
+1.  [大场景很low？是你牙齿不好吧，大叔](06-xingneng.html#大场景很low？是你牙齿不好吧，大叔)
