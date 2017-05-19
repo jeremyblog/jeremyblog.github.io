@@ -1,5 +1,1 @@
-_site/
-_html/
-.sass-cache/
-.jekyll-metadata
-_output/
+/_site
