@@ -38,6 +38,7 @@
 html,
 body {
   overflow-x: hidden;
+  font-size:0.95rem;
 }
 
 html {
@@ -68,11 +69,11 @@ h3 {
 h4, h5, h6 {
   font-weight:bold;
   margin-top: 1rem;
-  font-size: 0.90rem;
+  font-size: 1rem;
 }
 
 p {
-  font-size: 0.80rem;
+  font-size: 1rem;
 }
 
 /*
