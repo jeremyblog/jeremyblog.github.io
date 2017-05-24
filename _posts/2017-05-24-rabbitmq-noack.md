@@ -79,12 +79,14 @@ realtime.index的项目采用上述的ack机制来保证数据的不丢失。
       <td><p>分别为5G和6g</td>
       <td><p>1K</td>
     </tr>
+  </tbody>
 </table>
 
 ### 编码建议
 以上的问题，作者并不认为是一个bug，并不会特别优化这一个，而是给出了两条编码建议
 > - Queue length of message TTL (both already available)
 > - The limit on how many times a message can be requeued
+
 <br>
 这个原则就是建议采用ttl和Dead Letter两种方式来避免它。TTL就是设置消息的存活时间，而Dead letter则在消息超过存活时间后将消息转为到一个独有的exchange上。
 <br>
