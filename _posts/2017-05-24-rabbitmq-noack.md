@@ -54,30 +54,30 @@ realtime.index的项目采用上述的ack机制来保证数据的不丢失。
 <table>
   <thead>
     <tr>
-      <th><p>环境</th>
-      <th><p>QOS</th>
-      <th><p>数据/s</th>
-	  <th><p>节点数</th>
-	  <th><p>内存大小</th>
-	  <th><p>报文大小</th>
+      <th><p>环境</p></th>
+      <th><p>QOS</p></th>
+      <th><p>数据per second</p></th>
+	  <th><p>节点数</p></th>
+	  <th><p>内存大小</p></th>
+	  <th><p>报文大小</p></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><p>dev</td>
-      <td><p>10</td>
-      <td><p>3小时不到1k</td>
-      <td><p>1</td>
-      <td><p>不到1g</td>
-      <td><p>1K</td>
+      <td><p>dev</p></td>
+      <td><p>10</p></td>
+      <td><p>3小时不到1k</p></td>
+      <td><p>1</p></td>
+      <td><p>不到1g</p></td>
+      <td><p>1K</p></td>
     </tr>
     <tr>
-      <td><p>pro</td>
-      <td><p>100</td>
-      <td><p>3小时大约4w</td>
-      <td><p>2</td>
-      <td><p>分别为5G和6g</td>
-      <td><p>1K</td>
+      <td><p>pro</p></td>
+      <td><p>100</p></td>
+      <td><p>3小时大约4w</p></td>
+      <td><p>2</p></td>
+      <td><p>分别为5G和6g</p></td>
+      <td><p>1K</p></td>
     </tr>
   </tbody>
 </table>
